@@ -31,35 +31,6 @@ coding_theory_project/
 
 ---
 
-### 🔹 Installation  
-Clone the repository and navigate into the project:  
-```bash
-git clone https://github.com/your-username/coding-theory-project.git
-cd coding-theory-project
-```
-
-(Optional) Create a virtual environment:  
-```bash
-python -m venv venv
-source venv/bin/activate   # (Linux/Mac)
-venv\Scripts\activate      # (Windows)
-```
-
----
-
-### 🔹 Usage  
-Run the demo script:  
-```bash
-python main.py
-```
-
-Or explore each concept interactively with Jupyter notebooks:  
-```bash
-jupyter notebook
-```
-
----
-
 ### 🔹 Example Output  
 ```
 Original Message: HELLO
