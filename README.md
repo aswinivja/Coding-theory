@@ -1,23 +1,23 @@
-# 📌 Project: Mathematical Coding Theory in Python  
+# Mathematical Coding Theory
 
-### 🔹 Overview  
+###  Overview  
 This project demonstrates core concepts of **Mathematical Coding Theory** applied to **data compression, error detection, error correction, and cryptography**.  
 It is designed as a modular Python package where each coding theory concept is implemented in its own module, with a `main.py` (and corresponding notebook) to showcase an **end-to-end data transmission simulation**.  
 
 ---
 
-### 🔹 Features  
-✔️ **Linear Codes** – Generator & Parity-check matrices  
-✔️ **Cyclic Codes** – CRC encoding & checking using polynomials  
-✔️ **Error-Correcting Codes** – Hamming(7,4) with single-bit error correction  
-✔️ **Data Compression** – Huffman coding for text compression  
-✔️ **Cryptography** – Simple XOR-based encryption & decryption  
-✔️ **Demo Application** – Complete pipeline:  
+###  Features  
+ **Linear Codes** – Generator & Parity-check matrices  
+ **Cyclic Codes** – CRC encoding & checking using polynomials  
+ **Error-Correcting Codes** – Hamming(7,4) with single-bit error correction  
+ **Data Compression** – Huffman coding for text compression  
+ **Cryptography** – Simple XOR-based encryption & decryption  
+ **Demo Application** – Complete pipeline:  
 `Message → Compression → Encoding → Encryption → Noise (Errors) → Decryption → Decoding → Decompression → Recovered Message`  
 
 ---
 
-### 🔹 Project Structure
+###  Project Structure
 ```
 coding_theory_project/
 │── linear_codes.py        # Linear codes (G, H matrices)
@@ -31,7 +31,7 @@ coding_theory_project/
 
 ---
 
-### 🔹 Example Output  
+###  Example Output  
 ```
 Original Message: HELLO
 Huffman Encoded: 0100110110
@@ -45,7 +45,7 @@ Decrypted: [0, 1, 0, 0, 1, 1, 0, 1, 1, 0]
 
 ---
 
-### 🔹 Applications  
+###  Applications  
 - **Error detection & correction** in communication systems  
 - **Efficient storage & transmission** using compression  
 - **Secure communication** combining cryptography with coding theory  
